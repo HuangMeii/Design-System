@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0;
+  position: fixed;
+  width: 100%; /* Chiều rộng tối đa của header */
+  height: 50px;
+  z-index: 1;
+  margin: 0 10%;
+  padding: 0 24px;
+}
+
+.left-icon{
+  flex: 1;
+  display: flex;
+  width: 300px;
+  justify-content: left;  /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  height: 100%;
+  overflow: hidden;        /* Ẩn phần thừa nếu có */
+  padding-left: 150px;
+}
+
+.img1{
+  width: 14%;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;  
+}
+
+.right-icon{
+  display: flex;
+  align-items: center; 
+  flex: 1;
+  font-size: 10px;
+  gap: 25px; /* Khoảng cách cố định giữa các phần tử */
+  padding-right: 320px;
+  cursor: pointer;
+  display: inline-flex; 
+
+}
+
+.a{
+  text-decoration: none; /* Bỏ gạch chân*/
+  color: #505256;
+}
+
+.a:hover{
+  color: #000;
+}
+
+.but1{
+  cursor: pointer;
+  border: none;
+  color: #505256;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 9px 17px;
+  transition: all 0.3s;
+}
+
+.but1:hover{
+  background-color: #bdbfc2;
+}
