@@ -16,6 +16,7 @@ h1{
 
 .center-second{
   padding: 13px 450px 0;
+  width: 600px;
   font-size: 17px;
   color: #505256;
   align-items: start;
@@ -56,4 +57,32 @@ h1{
 
 .ac:hover{
   border-color: #505256;
+}
+
+.introduction-overview-account{
+  padding: 0 200px;
+}
+.intro1{
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.p1{
+  width: 15px; /* Kích thước ảnh */
+  height: 15px;
+  padding: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f8f5f5;
+  border-radius: 10px;
+  box-shadow: #d2d3d4 1px 1px 1px 1px;
+}
+
+.intro2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  object-fit: cover;
+  justify-content: left;  
 }
