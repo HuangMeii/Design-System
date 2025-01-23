@@ -6,7 +6,7 @@ header {
   position: fixed;
   width: 100%; /* Chiều rộng tối đa của header */
   height: 50px;
-  z-index: 1;
+  z-index: 1; /* Lớp cao hơn 0 - mặc định*/
   margin: 0 10%;
   padding: 0 24px;
 }

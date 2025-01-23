@@ -1,5 +1,5 @@
 .center{
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 0;
   position: relative;
   z-index:0;
@@ -15,15 +15,16 @@ h1{
 }
 
 .center-second{
-  padding: 13px 450px 0;
-  width: 600px;
-  font-size: 17px;
+  padding: 13px 35% 10px;
+  max-width: 450px;
+  font-size: 13px;
+  line-height: 1.7;
   color: #505256;
   align-items: start;
 }
 
 .center-third{
-  padding-top: 20px;
+  padding-top: 1%;
   display: flex;
   justify-content: center;
 }
@@ -60,12 +61,15 @@ h1{
 }
 
 .introduction-overview-account{
-  padding: 0 200px;
+  padding-left: 420px;
+  padding-top: 70px;
 }
 .intro1{
+  width: 300px;
   display: flex;
   gap: 15px;
-  padding: 20px;
+  padding: 0;
+  margin-bottom: 22px;
 }
 
 .p1{
@@ -75,14 +79,95 @@ h1{
   border-style: solid;
   border-width: 1px;
   border-color: #f8f5f5;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: #d2d3d4 1px 1px 1px 1px;
 }
+.intro2-3{
+  width: 215px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: #d9dbdd 2px 2px 2px;
+  box-shadow:0 5px 20px #d9dbdd;
 
-.intro2 img {
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
+}
+
+.pic1{
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.p2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
   object-fit: cover;
-  justify-content: left;  
+}
+
+.p3{
+  padding: 0;
+  position: absolute;
+  width: 7px;
+  margin-top: 40px;
+  margin-left: 33px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 50%;
+  border-color: aliceblue;
+  z-index: 10; 
+}
+
+.p4, .p5{
+  display: flex;
+  justify-content: center;
+}
+
+.p4{
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10;
+  margin-bottom: 7px;
+}
+
+.p5 {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.intro3{
+  padding: 25px;
+  display: flex;
+}
+
+.intro3 button{
+  width: 100px;
+  padding: 8px 8px;
+  word-spacing: 12px; /* Tăng khoảng cách giữa các từ*/
+  font-size: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.b1{
+  margin-right: 4px;
+  margin-left: -9px;
+  border: none;
+  background-color: #0284FE;
+  color: aliceblue;
+  transition: all 0.8s;
+}
+
+.b1:hover{
+  background-color: #5c87af;
+}
+
+.b2{
+  margin-left: 4px;
+  margin-right: -9px;
+  border: #d2d3d4 solid 1px;
+  background-color: white;
+  color: #505256;
 }
