@@ -1,3 +1,9 @@
+.introduction-overview-account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
 .center{
   margin-top: 120px;
   margin-bottom: 0;
@@ -61,11 +67,9 @@ h1{
 }
 
 .introduction-overview-account{
-  padding-left: 420px;
   padding-top: 70px;
 }
 .intro1{
-  width: 300px;
   display: flex;
   gap: 15px;
   padding: 0;
@@ -88,7 +92,6 @@ h1{
   border-color: aliceblue;
   border-radius: 10px;
   position: relative;
-  box-shadow: #d9dbdd 2px 2px 2px;
   box-shadow:0 5px 20px #d9dbdd;
 
 }
@@ -170,4 +173,161 @@ h1{
   border: #d2d3d4 solid 1px;
   background-color: white;
   color: #505256;
+}
+
+
+.overview-above{
+  border: 1px solid rgb(246, 244, 244);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  box-shadow:0 5px 20px #d9dbdd;
+}
+
+.p6{
+  width: 200px;
+  height: 200px;
+}
+
+.af{
+  display: flex;
+  margin-top: -6px;
+  margin-bottom: -2px;
+}
+
+.p7 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.af p{
+  font-size: 12px;
+}
+
+.im{
+  padding: 10px;
+  position: relative;
+}
+.p23, .p24{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 36px;
+}
+
+.p24{
+  z-index: 2;
+  opacity: 0;
+}
+
+.show-p24 .p24 {
+  opacity: 1;
+}
+
+.overview-under{
+  display: flex;
+  border: solid 1px #f8f5f5;
+  padding: 10px;
+  box-shadow:0 5px 20px #d9dbdd;
+  border-radius: 10px;
+}
+
+.p8{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.ak1, .ak2{
+  font-size: 10px;
+  margin: 2px 10px;
+}
+
+.ak1{
+  color: #000;
+  font-weight: bold;
+}
+
+.pt{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.p31, .p32{
+  width: 17px;
+  height: 17px;
+}
+
+.p31{
+  position: absolute;
+}
+
+.p32{
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+
+.show-p32 .p32 {
+  opacity: 1;
+}
+
+.account{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account1a{
+  display: flex;
+  justify-content: center;
+}
+
+.account1 h2{
+  font-size: 17px;
+  color: #000;
+  margin-top: -80px;
+  margin-left: 10px;
+}
+
+.account1 p{
+  font-size: 9px;
+  margin-top: -6px;
+  margin-right: 5px;
+}
+
+.a1a{
+  color: #0284FE;
+  cursor: pointer;
+}
+
+.account2 img{
+  width: 12px;
+  height: 12px;
+}
+
+.account2 button{
+  background-color: white;
+  padding: 6px 8px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #c6c7ca;
+  color: #c6c7ca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin: 11px;
+}
+
+.account2 button.highlight {
+  border-color: #0284FE; /* Màu viền khi có dữ liệu */
 }

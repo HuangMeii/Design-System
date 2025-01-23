@@ -69,8 +69,52 @@
               </div>
             </div>
           </div>
-          <div class="overview"></div>
-          <div class="account"></div>
+          <div class="overview">
+            <div class="overview-above">
+              <img class="p6" src="pic/anya-chan.jpg" alt="">
+              <div class="af">
+                <img class="p7" src="pic/anya-chan.jpg" alt="">
+                <p>Meagan Fisher</p>
+                <div class="im">
+                  <img class="p23" src="pic/linhvat9.svg" alt="">
+                  <img class="p24" src="pic/linhvat02.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="overview-under">
+              <img class="p8" src="pic/Loid.webp" alt="">
+              <div class="ak">
+                <p class="ak1">John Doe</p>
+                <p class="ak2">UI/UX Designer</p>
+              </div>
+              <div class="pt">
+                <img class="p31" src="pic/linhvat10.svg" alt="">
+                <img class="p32" src="pic/linhvat11.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="account">
+            <div class="account1">
+              <h2>Login into your account</h2>
+              <div class="account1a">
+                <p>Don't have an account yet?</p>
+                <p class="a1a">Create New</p>
+              </div>
+            </div>
+            <div class="account2">
+              <button class="ba">
+                <input type="text" id="tx" placeholder="johndoe@gmail.com" style="border: none; outline: none; width: 130px;">
+                <img class="i1" src="pic/linhvat12.svg" alt="">
+              </button>
+              <button class="ba">
+                <input type="text" id="tx1" placeholder="Password" style="border: none; outline: none; width: 130px;">
+                <img class="i2" src="pic/linhvat13.svg" alt="">
+              </button>
+            </div>
+            <div class="account3">
+              <button>Login</button>
+            </div>
+          </div>
         </section>
 
         <section class="features">
@@ -150,5 +194,28 @@
         </div>
       </footer>
     </main>
+    <script>
+      const imageContainer = document.querySelector('.im');
+      imageContainer.addEventListener('click', () => {
+        imageContainer.classList.toggle('show-p24');
+      });
+      const imageContainer1 = document.querySelector('.pt');
+      imageContainer1.addEventListener('click', () => {
+        imageContainer1.classList.toggle('show-p32');
+      });
+
+      const buttons = document.querySelectorAll(".ba");
+
+      // Lặp qua từng nút và thêm sự kiện
+      buttons.forEach((button) => {
+        const input = button.querySelector("input"); // Lấy input bên trong nút
+        input.addEventListener("input", () => {
+          if (input.value.trim() !== "") 
+            button.classList.add("highlight"); // Thêm lớp highlight nếu có dữ liệu
+          else 
+            button.classList.remove("highlight"); // Xóa lớp highlight nếu không có dữ liệu
+        });
+      });
+    </script>
   </body>
 </html>
