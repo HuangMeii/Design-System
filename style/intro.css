@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  padding-bottom: 168px;
+  border-bottom: solid 1px #f8f5f5;
+  margin: 0 20px;
 }
 .center{
   margin-top: 120px;
@@ -37,7 +40,7 @@ h1{
 
 .ab, .ac{
   border-style: solid;
-  text-decoration: none; 
+  text-decoration: none; /* Bỏ gạch chân*/
   font-size: 12px;
   margin: 0 5px;
   padding: 7px 11px;
@@ -285,7 +288,7 @@ h1{
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
-  box-shadow:0 5px 20px #d9dbdd;
+  box-shadow:0 5px 20px #d9dbdd; /* bóng*/
   border: solid 1px #f8f5f5;
   padding: 44px 4px 25px;
 }

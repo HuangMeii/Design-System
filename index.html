@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/section.css">
+    <link rel="stylesheet" href="style/intro.css">
+    <link rel="stylesheet" href="style/features.css">
   </head>
   <body>
     <header class="header"> 
@@ -15,7 +16,7 @@
         <img class="img1" src="pic/linhvat1.svg" alt="">
       </div>
       <div class="right-icon">
-        <a class="a" href="#features">Features</a>
+        <a class="a" href="#key-feature-button">Features</a>
         <a class="a" href="https://github.com/proksh/atomize"> Github</a>
         <a class="a" href="https://atomizedesign.com/">For Designers</a>
         <a class="a" href="https://atomizecode.com/docs/react/intro/">
@@ -118,14 +119,40 @@
         </section>
 
         <section class="features">
-          <div class="key-feature-button"></div>
-          <div class="question"></div>
-          <div class="general-answer"></div>
+          <div class="key-feature-button" id="key-feature-button"> <!-- chỉ có thể dùng link với id mà không được dùng class -->
+            Key Feature
+          </div>
+          <div class="question">
+            <p>Why use Atomize React?</p>
+          </div>
+          <div class="general-answer">
+            Atomize React helps you in building fully responsive websites and products that match your style.
+          </div>
           <div class="specific-answer">
-            <div class="specific-answer-flexibleGrid"></div>
-            <div class="specific-answer-style-guide"></div>
-            <div class="specific-answer-spacing"></div>
-            <div class="specific-answer-repondsive"></div>
+            <div class="ae">
+              <img src="pic/linhvat14.svg" alt="">
+              <p style="font-size: 18px;">Flexible Grid</p>
+              <div class="ai">Change grid variables or give decimal column size.</div>
+              <a class="aim" href="https://atomizecode.com/docs/react/theme#columnCount">See How</a>
+            </div>
+            <div class="ae">
+              <img src="pic/linhvat15.svg" alt="">
+              <p style="font-size: 18px;">Style guide</p>
+              <div class="ai">Update theme throughout the application easily.</div>
+              <a class="aim" href="https://atomizecode.com/docs/react/theme#availableColors"> See How</a>
+            </div>
+            <div class="ae"> 
+              <img src="pic/linhvat16.svg" alt="">
+              <p style="font-size: 18px;">Spacing</p>
+              <div class="ai">A better and controlled way of update spacing.</div>
+              <a class="aim" href="https://atomizecode.com/docs/react/theme#availableColors">See How</a>
+            </div>
+            <div class="ae">
+              <img src="pic/linhvat17svg.svg" alt="">
+              <p style="font-size: 18px;">Responsive</p>
+              <div class="ai">Better control to make the app responsive.</div>
+              <a class="aim" href="https://atomizecode.com/docs/react/responsive">See How</a>
+            </div>
           </div>
         </section>
 
