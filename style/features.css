@@ -4,6 +4,9 @@
   flex-direction: column;
   margin: 0 auto;
   width: 850px;
+  padding-bottom: 60px;
+  border-bottom: solid 1px #f8f5f5;
+  margin: 0 330px;
 }
 
 .key-feature-button{

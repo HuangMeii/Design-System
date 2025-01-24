@@ -1,0 +1,50 @@
+.beautiful-consistant{
+  display: flex;
+  gap: 20px;
+  padding: 128px 20%;
+  height: 850px;
+}
+.beautiful-consistant-left{
+  flex: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.beautiful-consistant-left img{
+  position: absolute;
+}
+
+.p11{
+  width: 250px;
+  height: 250px;
+}
+
+.p12{
+  width: 200px;
+  height: 200px;
+}
+
+.p13{
+  width: 150px;
+  height: 150px;
+}
+
+.p14{
+  width: 100px;
+  height: 100px;
+}
+.beautiful-consistant-right{
+  flex: 3;
+}
+
+.beautiful-consistant-right-below{
+  display: flex;
+}
+
+.beautiful-consistant-right-below img{
+  width: 25px;
+  height: 25px;
+}
