@@ -2,10 +2,37 @@
   display: flex;
   gap: 20px;
   padding: 128px 20%;
-  height: 850px;
 }
+
+.beautiful-consistant-right-above, .beautiful-consistant-right-below h5{
+  color: #000;
+}
+
+.beautiful-consistant-right-above{
+  font-size: 25px;
+  width: 400px;
+  padding-bottom: 25px;
+}
+
+.beautiful-consistant-right-below h5, p{
+  margin: 4px;
+  font-size: 12px;
+}
+
+.b11{
+  width: 130px;
+  height: 100px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hl{
+  color: #0284FE;
+}
+
 .beautiful-consistant-left{
-  flex: 2;
+  flex: 1.6;
   position: relative;
   display: flex;
   align-items: center;
@@ -15,6 +42,7 @@
 
 .beautiful-consistant-left img{
   position: absolute;
+  margin-left: -10px;
 }
 
 .p11{
@@ -36,15 +64,86 @@
   width: 100px;
   height: 100px;
 }
+
+.p15{
+  width: 45px;
+  height: 45px;
+}
+
+.btt2{
+  width: 23px;
+  height: 13px;
+  border-radius: 10px;
+  z-index: 1000;
+  border: none;
+  background-color: green;
+  margin: 0 0px 135px 135px;
+  position: absolute;
+}
+
+.btt3{
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  z-index: 1000;
+  border: none;
+  background-color: orange;
+  margin: 0 183px 100px 0;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btt3:hover {
+  opacity: 0.5;
+  box-shadow:0 3px 20px #c0c2c3;
+}
+
+.btt4{
+  width: 20px;
+  z-index: 1000;
+  position: absolute;
+  accent-color: red; /* Đổi màu checkbox khi được tích */
+  margin: 184px 170px 0 0;
+}
+
+.btt5{
+  width: 60px;
+  height: 25px;
+  font-size: 12px;
+  background-color: #0284FE;
+  color: white;
+  position: absolute;
+  margin: 120px 0 0 160px;
+  z-index: 1000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btt5:hover{
+  opacity: 0.7;
+  box-shadow:0 3px 20px #c0c2c3;
+}
+
 .beautiful-consistant-right{
   flex: 3;
+  margin-right: 30px;
+  padding-left: 60px;
+  margin-top: -10px;
+  flex-direction: column;
+  display: flex;
 }
 
 .beautiful-consistant-right-below{
   display: flex;
+  margin-top: 20px;
 }
 
 .beautiful-consistant-right-below img{
   width: 25px;
   height: 25px;
+  margin: 0;
 }
