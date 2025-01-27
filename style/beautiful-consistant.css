@@ -1,7 +1,10 @@
 .beautiful-consistant{
   display: flex;
   gap: 20px;
-  padding: 128px 20%;
+  padding: 128px 2%;
+  padding-bottom: 60px;
+  border-bottom: solid 1px #f8f5f5;
+  margin: 0 330px 100px;
 }
 
 .beautiful-consistant-right-above, .beautiful-consistant-right-below h5{
@@ -85,7 +88,7 @@
   width: 8px;
   height: 8px;
   border-radius: 10px;
-  z-index: 1000;
+  z-index: 900;
   margin-top: 53px;
   margin-left: 198px;
   position: absolute;
@@ -95,7 +98,7 @@
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  z-index: 1000;
+  z-index: 900;
   border: none;
   background-color: orange;
   margin: 0 183px 100px 0;
@@ -112,7 +115,7 @@
 
 .btt4{
   width: 20px;
-  z-index: 1000;
+  z-index: 900;
   position: absolute;
   accent-color: red; /* Đổi màu checkbox khi được tích */
   margin: 184px 170px 0 0;
@@ -126,7 +129,7 @@
   color: white;
   position: absolute;
   margin: 120px 0 0 160px;
-  z-index: 1000;
+  z-index: 900;
   border: none;
   border-radius: 3px;
   cursor: pointer;
