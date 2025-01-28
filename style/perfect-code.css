@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 2000px;
+  margin-bottom: 350px;
 }
 
 .perfect-code-introduction{
@@ -253,4 +253,72 @@
 
 .acc3:hover{
   background-color: #0284FE;
+}
+
+/* Design and Development */
+.design-and-development{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.design-and-development h2{
+  color: #000;
+  font-size: 23px;
+}
+
+.design-and-development-introduction{
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.da{
+  display: flex;
+  gap: 10px;
+}
+
+.d{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 180px;
+  padding: 25px 65px 30px 30px;
+  border-radius: 10px;
+  box-shadow:0 5px 20px #d9dbdd;
+  gap: 15px;
+}
+
+.d1{
+  width: 35px;
+  height: 35px;
+}
+
+.d h4{
+  color: #000;
+  font-size: 16px;
+  margin: 0;
+}
+
+.d2{
+  width: 15px;
+  height: 15px;
+}
+
+.d a{
+  text-decoration: none; /* Bỏ gạch chân*/
+  color: #0284FE;
+  font-size: 10px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+}
+
+.d p{
+  text-align: left;
+  font-size: 11px;
+  width: 180px;
+  line-height: 22px;
 }
