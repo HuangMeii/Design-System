@@ -1,0 +1,50 @@
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.end-above{
+  display: flex;
+  gap: 50px;
+}
+
+.ea{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 12px;
+}
+
+.ea h3{
+  color: #000;
+}
+
+.ea a{
+  text-decoration: none;
+  color: #c6c7ca;
+} 
+
+.ea a:hover{
+  color: #51a6f5;
+}
+
+.end-below{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 100px;
+}
+
+.end-below img{
+  width: 10px;
+  height: 10px;
+}
+
+.final{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
