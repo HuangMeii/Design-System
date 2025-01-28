@@ -4,13 +4,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin-bottom: 2000px;
 }
 
 .perfect-code-introduction{
   text-align: center; /* căn giữa cho văn bản*/
   width: 430px;
+  z-index: 12;
+  background-color: white;
+  box-shadow:0 15px 20px white; /* bóng*/
+  padding: 35px;
   font-size: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 18px;
   font-weight: bold;
 }
 
@@ -31,4 +37,220 @@
   display: flex;
   gap: 2px;
   padding-top: 7px;
+}
+
+.anime{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: moveUp 5s linear infinite;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 510px;
+}
+
+.intro2-3a{
+  width: 215px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  box-shadow:0 5px 20px #d9dbdd;
+  z-index: 12;
+  background-color: white;
+}
+
+/* Keyframes cho chuyển động */
+@keyframes moveUp {
+  0% {
+    transform: translateY(400px); 
+  }
+  100% {
+    transform: translateY(9px); 
+  }
+} 
+
+
+.pic1a{
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.p2a {
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+.p3a{
+  padding: 0;
+  position: absolute;
+  width: 7px;
+  margin-top: 40px;
+  margin-left: 33px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 50%;
+  border-color: aliceblue;
+  z-index: 10; 
+}
+
+.p4a, .p5a {
+  display: flex;
+  justify-content: center;
+}
+
+.p4a {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10;
+  margin-bottom: 7px;
+}
+
+.p5a {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.intro3a {
+  padding: 25px;
+  display: flex;
+}
+
+.intro3a button{
+  width: 100px;
+  padding: 8px 8px;
+  word-spacing: 12px; /* Tăng khoảng cách giữa các từ*/
+  font-size: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.b1a {
+  margin-right: 4px;
+  margin-left: -9px;
+  border: none;
+  background-color: #0284FE;
+  color: aliceblue;
+  transition: all 0.8s;
+}
+
+.b1a:hover{
+  background-color: #5c87af;
+}
+
+.b2a {
+  margin-left: 4px;
+  margin-right: -9px;
+  border: #d2d3d4 solid 1px;
+  background-color: white;
+  color: #505256;
+}
+
+.intro2ab{
+  display: flex;
+  align-items: center;
+  width: 215px;
+  height: 36px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  box-shadow:0 5px 20px #d9dbdd;
+  z-index: 12;
+  background-color: white;
+  gap: 20px;
+}
+
+.ab1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.ab3{
+  border: none;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  border-radius: 50%;
+  background-color: #0284FE;
+  color: white;
+  margin-left: 13px;
+}
+
+.intro2ac{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 220px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  box-shadow:0 5px 20px #d9dbdd;
+  z-index: 12;
+  background-color: white;
+  padding: 20px;
+  gap: 25px;
+}
+
+.intro2ac h2{
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.intro2ac h6{
+  font-size: 13px;
+  padding-top: 18px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.intro2ac p{
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #c6c7ca;
+}
+
+.intro2ac-right{
+  display: flex;
+  align-items: end;
+}
+
+.ac2{
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.ac3{
+  margin: 0;
+}
+
+.intro2ac2{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 23px;
+}
+
+.acc3{
+  border: none;
+  border-radius: 6px;
+  padding: 7px 15px;
+  background-color: #51a6f5;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.acc3:hover{
+  background-color: #0284FE;
 }
