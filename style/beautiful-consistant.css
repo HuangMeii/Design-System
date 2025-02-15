@@ -89,9 +89,10 @@
   height: 8px;
   border-radius: 10px;
   z-index: 900;
-  margin-top: 53px;
-  margin-left: 198px;
+  margin-top: 52.9px;
+  margin-left: 188px;
   position: absolute;
+  border: none;
 }
 
 .btt3{
